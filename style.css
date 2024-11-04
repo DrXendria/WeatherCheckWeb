@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+form{
+    display: flex;
+}
+.city{
+    width: 75%;
+    padding: 10px;
+    background: lavender;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 10px 0px 0px 10px;
+}
+.cityButton{
+    width: 25%;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    background-color: indianred;
+    color: white;
+    font-size: 14px;
+}
+.icon img{
+    width: 50px;
+    height: 50px;
+}
+.temperature{
+    font-size: 45px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.details div{
+    background-color: beige;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px;
+}
+@media (max-width:768px){
+    .details div{
+        width: 100%;
+        
+    }
+}
